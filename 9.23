@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>施浩然666(shihaoran666.com)</title>
+</head>
+
+<body>
+<h1 style="text-align:center">社会主义核心价值观</h1>
+<hr/> <br/><br/><br/> <!--创建水平线以分割内容-->
+
+<div style="text-align:center">
+<img src="D:\my pictures\qq图片\共产主义接班人.jpg" width="300" height="300"/>
+</div>
+<br/><br/><br/>
+
+<p style="color:red;text-align: center"> <!--给段落设置格式（颜色、对其方式）-->
+    <strong>富强 民主 文明 和谐</strong>
+</p>
+<p style="color:red;text-align: center">
+    <strong>自由 平等 公正 法治</strong>
+</p>
+<p style="color:red;text-align: center">
+    <b>爱国 敬业 诚信 友善</b> <!--<b>/<strong>粗体格式-->
+</p>
+<br/>
+
+<pre style="text-align: center;font-size: larger;">
+    <strong>
+    社会主义核心价值观：
+    富强、民主、文明、和谐、自由、平等、公正、法治、爱国、敬业、诚信、友善12个词,
+    是落实中国特色社会主义新时代“立德树人”根本任务的核心指导内容，是引领全中国人民
+    追赶中国梦的精神旗帜，是人民的道德信仰。
+    </strong>
+</pre> <!--用<pre>对文本格式进行控制-->
+
+<hr/> <br/>
+
+<div style="text-align: center">
+    <button type="button" onclick="alert('你好，世界')">点我试试</button><br/> <!--<br/>换行符-->
+    <br/><br/>
+<figure>
+    <img src="C:\Users\15804\Desktop\R-C.jpg" width="768" height="1024"/> <!--标记文档中的一个图像-->
+    <figcaption>社会主义核心价值观</figcaption> <!--图像标题-->
+</figure>
+</div>
+
+<style type="text/css">
+    .mytable
+    {
+        text-align: center;
+        margin: 0 auto;
+    }
+</style> <!--对mytable进行设置-->
+
+<table class="mytable" border="1"> <!--定义一个表格,且规定该表格的类名为mytable-->
+    <tr>
+        <th>富强</th> <th>民主</th> <th>文明</th> <th>和谐</th>
+    </tr>
+    <tr>
+        <th>自由</th> <th>平等</th> <th>公正</th> <th>法治</th>
+    </tr>
+    <tr>
+        <th>爱国</th> <th>敬业</th> <th>诚信</th> <th>友善</th>
+    </tr>
+</table>
+
+<br/> <hr/> <br/>
+<div style="text-align: center">
+<a href="https://www.163.com/dy/article/HHSVNJVQ0514E4SJ.html">社会主义核心价值观</a>
+</div>
+<br/><br/> <hr/> <br/><br/>
+
+<address style="text-align: right;">
+Writen by <a href="mailto:1580505516@qq.com">158SHI</a>
+</address> <!--创建地址-->
+
+</body>
+
+</html>
