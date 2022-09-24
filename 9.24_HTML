@@ -1,0 +1,79 @@
+<!DOCTYPE html> <!--定义文件格式为html-->
+
+<html>
+
+<head>
+<meta charset="utf-8"> <!--定义网页编码格式为utf-8-->
+<style type="text/css">
+body
+{
+background-color: white;
+}
+p
+{
+    color: black;
+}
+</style> <!--定义网页主体和字体格式-->
+</head>
+
+<body>
+
+    <a href="#C7">点此转到第七章</a><!--快速转到对应的id-->
+<title>text_9.24.com</TEST_9></title>
+<h1 style="text-align:center">标题一</h1>
+<hr/>
+<br/>
+<h2 style="text-align:center">标题二</h2>
+<br/>
+<hr/>
+<p style="text-align:center;"> <strong> <font size="larger">段落一</font> </strong> </p>
+<br/>
+<p style="font-size: 5;text-align:center">
+    春眠不觉晓，处处闻啼鸟。<br/>夜来风雨声，花落知多少。
+    <br/>
+    <img src="D:\html code\2022\网页素材\春晓.jpg" width="474" weight="379"/>
+    <br/><br/>
+</p>
+<hr/>
+<p style="text-align: center;">
+    该段文字从左到右显示
+</p>
+<p style="text-align:center"><bdo dir="rtl">
+    该段文字从右到左显示
+</bdo>
+</p>
+<br/><hr/>
+<p>
+    鲁迅说：
+    <q>这句话不是我说的。</q>
+</p>
+<p>
+    my favourite color is <del>blue</del> <ins>black</ins>!
+</p>
+<p>
+    Here is a quote from WWF:
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature. 
+    The worlds leading conservation organization, 
+    WWF works in 100 countries and is supported by 1.2 million 
+    members in the United States and close to 5 million globally.
+    </blockquote>
+</p>
+<h2> <a id="C7">第七章</a> </h2> <!--定义一个id，该id名称为C7-->
+<p style="text-align: center;">
+    插入一个图片链接
+    <br/>
+    <a href="http://www.worldwildlife.org/who/index.html">
+        <img border="0" src="D:\html code\2022\网页素材\笑脸.jpg" width="32" height="32"/></a> <!--插入图片链接-->
+</p>
+
+<p>
+    这是一个电子邮件链接
+<a href="mailto:1580405516@qq.com" target="_top">发送邮件</a><!--创建电子邮件链接-->
+</p>
+
+</body>
+<address style="text-align: right;"> <!--定义地址-->
+    Writen by <a href="mailto:1580405516@qq.com">158SHI</a>
+</address>
+</html>
