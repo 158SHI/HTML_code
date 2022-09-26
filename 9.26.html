@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>test_9.26</title>
+</head>
+<body>
+<table  border="1"> <!--定义表格-->
+    <tr>
+        <td>100</td><!--一行一列-->
+    </tr>
+</table>
+<br/>
+<table border="1">
+    <tr>
+        <td>100</td><td>200</td><td>300</td><!--一行三列-->
+    </tr>
+</table>
+<br/>
+<table border="1">
+    <tr>
+<td>100</td><td>200</td><td>300</td>
+    </tr>
+    <tr>
+<td>400</td><td>500</td><td>600</td>
+    </tr>
+</table><!--两行三列-->
+<br/>
+<table border="1">
+    
+    <caption>某公某年度指出</caption><!--设表格标题-->
+
+    <colgroup>
+        
+        <col span="2" style="background-color: red;">
+        <col style="background-color: blue;"
+    </colgroup><!--定义表格列的组-->
+<tr>
+    <td border="1" colspan="3" align="center">某公司某年度支出</td><!--设置跨行或跨列的单元格-->
+</tr>
+<tbody><!--定义表格的页眉、页脚、主体-->
+<tr>
+    <td>123</td> <td> 456</td> <td>789</td>
+</tr>
+<tr>
+    <td>123</td> <td> 456</td> <td>789</td>  
+</tr>
+<tr>
+    <td>这个单元格包含一个列表
+    <ul>
+        <li>apples</li>
+        <li>bananas</li>
+        <li>pineapples</li>
+       </ul>
+    </td><!--在表格中插入其他标签-->
+    <td colspan="2">hello,world</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+    <td colspan="2" align="center">789</td> <td>809</td>
+</tr>
+</tfoot>
+</table>
+</body>
+</html>
