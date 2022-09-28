@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>9.28_TEST</title>
+</head>
+<body>
+<h1>无序列表:</h1>
+<ul>
+    <li>Milk</li>
+    <li>Coffee</li>
+    <li>Bread</li>
+</ul>
+<br/>
+<h1>有序列表</h1>
+<ol>
+    <li>Milk</li>
+    <li>Coffee</li>
+    <li>Bread</li>
+</ol>
+<br/>
+<ol start="51">
+    <li>Milk</li>
+    <li>Coffee</li>
+    <li>Bread</li>
+</ol> <!--列表-->
+<br/>
+
+<dl><!--自定义列表-->
+<dt>Coffee</dt><!--列表项-->
+<dd>-Hot and Black</dd><!--注释-->
+<dt>Milk</dt>
+<dd>-With sugar</dd>
+</dl>
+<br/>
+
+<ol type="I"><!--不同类型的有序列表-->
+<li>Coffee</li>
+<li>Milk</li>
+<li>Bread</li>
+</ol>
+<br/>
+
+<ol type="a">
+    <li>Coffee</li>
+    <li>Milk</li>
+    <li>Bread</li>
+</ol>
+<br/>
+
+<ul style="list-style-type:circle;">
+<li>Coffee</li>
+<li>Milk</li>
+<li>Bread</li>
+</ul>
+<br/>
+
+<ul style="list-style-type:square;">
+<li>Coffee</li>
+<li>Milk</li>
+<li>Bread</li>
+</ul>
+<br/>
+<div style="color: red;">
+<h3>this is a head in div</h3>
+<p>this is a paragraph in div</p>
+</div>
+<br/>
+<p>He has a <span style="color:blue ;">blue</span> pen</p>
+
+<div id="container" style="width:500px;">
+
+<div id="header" style="background-color: rgba(255, 221, 0, 0.548);">
+<h1 style="margin-bottom: 0;text-align: center;">标题在这里</h1>
+</div>
+
+<div id="menu" style="height: 300px; width:100px;background-color: rgba(255, 255, 0, 0.833);float: left;">
+<strong>菜单</strong><br/>
+JAVA<br/>
+CSS<br/>
+HTML
+</div>
+
+<div id="content" style="background-color:#EEEEEE;height:300px;width:400px;float:left;">
+    内容在这里</div>
+
+<div id="foot" style="background-color: rgba(255,221,0,0.548);text-align: center;">
+版权所有@666.com
+</div><!--一种网页布局-->
+
+</div>
+
+</body>
+</html>
