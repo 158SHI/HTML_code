@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>9.29_TEST</title>
+</head>
+<body>
+<form action="">
+First name:<input type="text" name="first name"><br/><!--文本输入-->
+second name:<input type="text" name="second name">
+</form>
+<br/>
+<form action="">
+    PASSWORD:<input type="password" name="paw"><!--密码输入-->
+</form>
+<form action="">
+    SEX:<br/>
+<input type="radio" name="sex">man<br/>
+<input type="radio" name="sex">woman<!--单选按钮(radio buttons)-->
+</form>
+<br/>
+<form>
+<input type="checkbox">I like car<br/>
+<input type="checkbox">I like plan<br/><br/><!--复选按钮(check buttons)-->
+</form>
+<form>
+    Username:<input type="text" name="Username">
+    <input type="submit" value="submit"> <!--提交按钮-->
+</form>
+<br/><br/>
+
+<form action=""><!--创建一个下拉列表-->
+    <select name="fruits" style="width: 100px; height: 40px; font-size: larger;">
+<option name="apple">apple</option>
+<option name="orange">orange</option>
+<option name="banana">banana</option>
+    </select>
+</form><br/><hr/>
+
+<form action="">
+    <select name="fruits" style="width: 100px; height: 40px; font-size: larger;">
+        <option name="apple">apple</option>
+        <option name="orange" selected>orange</option>
+        <option name="banana">abnana</option><!--带有预选值的下拉列表-->
+</form><br/>
+<br/><hr/>
+
+<P>
+<textarea style="width: 100px; height:100px;font-size: larger;">
+    this is a textarea.
+</textarea><!--定义文本域-->
+</P><br/>
+
+<form action="">
+    <input type="button" value="Hello,World">
+</form><br/><!--创建按钮-->
+
+<form action="MAILTO:1580405516@qq.com" method="post" enctype="text/plain"><!--创建发送电子邮件的表单-->
+NAME:<br/>
+<input type="text" name="name" value="your name"> <br/>
+MAIL:<br/>
+<input type="text" name="mail" value="your e-mail"><br/>
+<input type="button" value="sumbit"><input type="reset" value="reset">
+</form><br/>
+
+<form action=""><!--创建有边框的表单-->
+<fieldset>
+    <legend>Personal Information</legend><!--定义fieldset的标题-->
+    NAME:<input type="text"><br/>
+    E-MAIL:<input type="text"><br/>
+    <input type="button" value="submit">
+</fieldset>
+</form><br/>
+
+<select style="width: 80px; height:30px"><!--创建自定义选项组-->
+    <optgroup label="Chinese Car">
+        <option>红旗</option>
+        <option>五菱宏光</option>
+        <option>大众汽车</option>
+    </optgroup>
+    <optgroup label="American Car">
+<option>福特</option>
+<option>林肯</option>
+<optgroup>悍马</optgroup>
+    </optgroup>
+</select><br/><br/>
+
+<form action="" method="get"><!--指定预先定义的选项列表-->
+<input list="省份" name="省份">
+<datalist id="省份"><!--datelist标签-->
+<option value="河南省">
+<option value="河北省">
+<option value="湖北省">
+</datalist>
+<input type="submit" value="submit">
+</form>
+
+<br/><br/><hr/>
+<form action="demo-form.php" method="get">
+    <input list="browsers" name="browser">
+    <datalist id="browsers">
+      <option value="Internet Explorer">
+      <option value="Firefox">
+      <option value="Chrome">
+      <option value="Opera">
+      <option value="Safari">
+    </datalist>
+    <input type="submit">
+    </form>
+
+</body>
+
+</html>
